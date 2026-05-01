@@ -1,5 +1,11 @@
 # 🤖 Multi-Agent RAG System — v3.0
 
+DEMO VIDEO:-
+
+https://www.loom.com/share/55abf6f4b21a4964b963eb5b2c4bb131
+
+
+
 A production-ready **Retrieval-Augmented Generation (RAG)** backend built with **FastAPI**, **LangGraph**, and **LangChain**, featuring persistent memory, multi-LLM provider support, and agentic action tools (web search, email, GitHub, code interpreter).
 
 ---
@@ -160,7 +166,8 @@ copy .env.example .env
 ### 5 — Start the backend server
 
 ```powershell
-python main.py
+ python main.py or 
+ uvicorn main:app --reload
 ```
 
 The API will be live at **http://localhost:8000**
