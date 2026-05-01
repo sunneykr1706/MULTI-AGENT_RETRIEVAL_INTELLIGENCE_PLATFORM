@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     google_embedding_model: str = "models/text-embedding-004"
 
     # Groq (free tier: https://console.groq.com/)
-    groq_api_key: str = "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"
+    groq_api_key: str =""
     groq_model: str = "llama-3.3-70b-versatile"
 
     # ChromaDB
